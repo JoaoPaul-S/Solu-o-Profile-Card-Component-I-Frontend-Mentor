@@ -2,9 +2,9 @@
     
     body{
         background-color: hsl(185, 75%, 39%);
-        background-image: url(Images/bg-pattern-bottom.svg);
-        background-position: top 380px left 590px;
-        background-image: url(Images/bg-pattern-top.svg);
+        background-image: url("Images/bg-pattern-top.svg"), url("Images/bg-pattern-bottom.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 52vw bottom 35vh, left 48vw top 52vh;
         font-family: 'Kumbh Sans', sans-serif;   
         display: flex;
         justify-content: center;
@@ -47,7 +47,7 @@
     }
     
     .name{
-        font-size: 19px;
+        font-size: 17px;
         font-weight: 700;
         color: hsl(229, 23%, 23%);
     }
